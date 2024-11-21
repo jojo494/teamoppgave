@@ -46,18 +46,6 @@ function removeObject(elementId){
 
 
 function toggleInventoryView(){
-    // const inventoryList = document.getElementById('inventoryList');
-    // inventoryList.innerHTML = '';
-
-    // inventoryMap.forEach((count, objectId) => {
-    //     const element = document.getElementById(objectId);
-    //     const newItem = document.createElement('li');
-    //     newItem.innerHTML = /*HTML*/ `
-    //     <img src="${element.src}" alt="${element.alt}" class="inventoryImgs"/>
-    //     <span>${element.alt}: ${count}</span>
-    //     `;
-    //     inventoryList.appendChild(newItem);
-    // });
     const inventoryContainer = document.getElementById('inventoryContainer');
     const quantityContainer = document.getElementById('containerWithQuantity');
     inventoryContainer.classList.toggle('hidden');
